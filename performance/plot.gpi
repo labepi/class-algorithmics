@@ -1,0 +1,13 @@
+set terminal svg size 700, 350
+set key box
+set key left top
+set grid
+set ylabel "time in nanoseconds"
+set xlabel "size of the problem instance (n)"
+set output "plot.svg"
+plot "c.txt" u 1:2 w l t "C",\
+     "c.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "java.txt" u 1:2 w l t "Java",\
+     "java.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "python.txt" u 1:2 w l t "Python",\
+     "python.txt" u 1:2:3 lt 8 pt 0 notitle w yerr

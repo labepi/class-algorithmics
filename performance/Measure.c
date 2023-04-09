@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 int search(int *v, unsigned int n, int k)
@@ -16,7 +17,7 @@ int main(int argc, char **argv)
     struct timespec a, b;
     unsigned int t;
     
-    unsigned int n = 10000;
+    unsigned int n = atoi(argv[1]);
     int i, v[n];
 
     for (i = 0; i < n; i++)

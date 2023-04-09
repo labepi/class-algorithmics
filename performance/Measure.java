@@ -18,8 +18,9 @@ public class Measure
     public static void main(String[] args) throws InterruptedException 
     {
         long a, b, t;
-        int[] v = new int[10000];
         int i;
+        int n = java.lang.Integer.parseInt(args[0]);
+        int[] v = new int[n];
 
         for (i = 0; i < v.length; i++)
         {

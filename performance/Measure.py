@@ -1,3 +1,4 @@
+import sys
 import time
 
 def search(v, k):
@@ -10,7 +11,7 @@ def search(v, k):
 
 if __name__ == "__main__":
 
-    v = list(range(1000))
+    v = list(range(int(sys.argv[1])))
 
     b = time.time_ns()
     search(v, -1)
