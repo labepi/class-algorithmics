@@ -18,7 +18,9 @@ int main(int argc, char **argv)
     unsigned int t;
     
     unsigned int n = atoi(argv[1]);
-    int i, v[n];
+    int i, *v;
+
+    v = (int *) malloc(n * sizeof(int));
 
     for (i = 0; i < n; i++)
     {
@@ -32,6 +34,8 @@ int main(int argc, char **argv)
     t = (a.tv_sec * 1e9 + a.tv_nsec) - (b.tv_sec * 1e9 + b.tv_nsec);
 
     printf("%u\n", t);
+
+    free(v);
 
     return 0;
 }
