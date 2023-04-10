@@ -1,0 +1,38 @@
+set key box
+set grid
+set ylabel "time in nanoseconds"
+set xlabel "experiment instance (n = 10000)"
+set terminal svg size 700, 350
+
+set key right top
+set output "plot-cr.svg"
+plot "c.txt" with linespoints title "C",\
+     "rust.txt" with linespoints title "Rust"
+
+set key left top
+set output "plot-jp.svg"
+plot "java.txt" with linespoints title "Java",\
+     "python.txt" with linespoints title "Python"
+
+set key right bottom
+set output "plot-c.svg"
+plot "c.txt" with linespoints title "C"
+
+set key left top
+set output "plot-j.svg"
+plot "java.txt" with linespoints title "Java"
+
+set key right top
+set output "plot-p.svg"
+plot "python.txt" with linespoints title "Python"
+
+set key right top
+set output "plot-r.svg"
+plot "rust.txt" with linespoints title "Rust"
+
+set yrange[0:1600000]
+set output "plot.svg"
+plot "c.txt" with linespoints title "C",\
+     "java.txt" with linespoints title "Java",\
+     "python.txt" with linespoints title "Python",\
+     "rust.txt" with linespoints title "Rust"

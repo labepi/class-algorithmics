@@ -1,14 +1,15 @@
 import java.lang.System;
+import java.util.ArrayList;
 
 public class Measure
 {
-    public static int search(int[] v, int k)
+    public static int search(ArrayList<Integer> v, int k)
     {
-        int n = v.length;
+        int n = v.size();
 
         while (n-- > 0)
         {
-            if (v[n] == k)
+            if (v.get(n) == k)
                 return n;
         }
 
@@ -20,11 +21,11 @@ public class Measure
         long a, b, t;
         int i;
         int n = java.lang.Integer.parseInt(args[0]);
-        int[] v = new int[n];
+        ArrayList<Integer> v = new ArrayList<Integer>();
 
-        for (i = 0; i < v.length; i++)
+        for (i = 0; i < n; i++)
         {
-            v[i] = i;
+            v.add(i);
         }
 
         b = java.lang.System.nanoTime();
