@@ -10,13 +10,10 @@ def search(v, k):
     return -1
 
 if __name__ == "__main__":
-
-    v = list(range(int(sys.argv[1])))
-
+    n = int(sys.argv[1])
+    v = list(range(n))
     b = time.time_ns()
-    search(v, -1)
+    search(v, n)
     a = time.time_ns()
-
     t = a - b
-
     print(t)
