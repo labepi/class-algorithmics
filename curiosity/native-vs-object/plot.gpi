@@ -1,0 +1,59 @@
+set terminal svg size 700, 350
+set key box
+set grid
+set ylabel "time in nanoseconds"
+set xlabel "size of the problem instance (n)"
+
+set key left top
+set output "plot.svg"
+plot "java-array.txt" u 1:2 w l lt 1 t "Java",\
+     "java-array.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "java-arraylist.txt" u 1:2 w l lt 2 t "Java ArrayList",\
+     "java-arraylist.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "python.txt" u 1:2 w l lt 3 t "Python",\
+     "python.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "python-list.txt" u 1:2 w l lt 4 t "Python List",\
+     "python-list.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "rust.txt" u 1:2 w l lt 5 t "Rust",\
+     "rust.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "rust-vec.txt" u 1:2 w l lt 6 t "Rust Vec",\
+     "rust-vec.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+
+set key left top
+set output "plot-native.svg"
+plot "java-array.txt" u 1:2 w l t "Java",\
+     "java-array.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "python-list.txt" u 1:2 w l t "Python List",\
+     "python-list.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "rust.txt" u 1:2 w l t "Rust",\
+     "rust.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+
+set key left top
+set output "plot-object.svg"
+plot "java-arraylist.txt" u 1:2 w l t "Java ArrayList",\
+     "java-arraylist.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "python.txt" u 1:2 w l t "Python",\
+     "python.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "rust-vec.txt" u 1:2 w l t "Rust Vec",\
+     "rust-vec.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+
+set key left top
+set output "plot-j.svg"
+plot "java-array.txt" u 1:2 w l t "Java",\
+     "java-array.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "java-arraylist.txt" u 1:2 w l t "Java ArrayList",\
+     "java-arraylist.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+
+set key left top
+set output "plot-p.svg"
+plot "python.txt" u 1:2 w l t "Python",\
+     "python.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "python-list.txt" u 1:2 w l t "Python List",\
+     "python-list.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+
+set key left top
+set output "plot-r.svg"
+plot "rust.txt" u 1:2 w l t "Rust",\
+     "rust.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "rust-vec.txt" u 1:2 w l t "Rust Vec",\
+     "rust-vec.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
