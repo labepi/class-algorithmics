@@ -23,12 +23,10 @@ int main(int argc, char **argv)
     v = (int *) malloc(n * sizeof(int));
 
     for (i = 0; i < n; i++)
-    {
         v[i] = i;
-    }
 
     clock_gettime(CLOCK_MONOTONIC, &b);
-    search(v, n, -1);
+    search(v, n, n);
     clock_gettime(CLOCK_MONOTONIC, &a);
 
     t = (a.tv_sec * 1e9 + a.tv_nsec) - (b.tv_sec * 1e9 + b.tv_nsec);

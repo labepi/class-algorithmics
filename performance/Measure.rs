@@ -30,7 +30,7 @@ fn main()
     }
 
     let now = time::Instant::now();
-    search(&mut v, -1);
+    search(&mut v, n as i32);
     let measure = now.elapsed();
 
     println!("{}", measure.as_nanos());
