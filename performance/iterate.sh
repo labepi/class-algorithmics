@@ -1,8 +1,6 @@
 #!/bin/sh
 
 help="
-Wrong number of arguments.
-
 SYNTAX:
 $0 <executions> <size-start> <size-pass> <size-end> <program> <name>
 
@@ -10,7 +8,7 @@ $0 <executions> <size-start> <size-pass> <size-end> <program> <name>
   <size-start> - initial value of 'n' (size of the problem instance)
   <size-pass>  - increment value of 'n' (size of the problem instance)
   <size-end>   - final value of 'n' (size of the problem instance)
-  <program>    - program string (name plus aditional arguments)
+  <program>    - program string (name plus additional arguments)
   <name>       - base string used to create filenames
 "
 
