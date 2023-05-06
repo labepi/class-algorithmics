@@ -3,18 +3,27 @@ set key box
 set grid
 set ylabel "time in nanoseconds"
 set xlabel "size of the problem instance (n)"
+unset border
 
 set key left top
 set output "plot.svg"
 plot "bubble.txt" u 1:2 w l t "Bubble",\
      "bubble.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "bubble-best.txt" u 1:2 w l t "Bubble (best)",\
+     "bubble-best.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "bubble-worst.txt" u 1:2 w l t "Bubble (worst)",\
+     "bubble-worst.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
      "selection.txt" u 1:2 w l t "Selection",\
      "selection.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
 
 set key left top
 set output "plot-b.svg"
 plot "bubble.txt" u 1:2 w l t "Bubble",\
-     "bubble.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+     "bubble.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "bubble-best.txt" u 1:2 w l t "Bubble (best)",\
+     "bubble-best.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "bubble-worst.txt" u 1:2 w l t "Bubble (worst)",\
+     "bubble-worst.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
 
 set key left top
 set output "plot-s.svg"
