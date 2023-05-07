@@ -150,7 +150,7 @@
 <g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M97.70,72.89 L106.09,72.89 M316.45,72.89 L674.82,72.89  '/></g>
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M97.70,72.89 L106.09,72.89 M308.06,72.89 L674.82,72.89  '/></g>
 <g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -163,7 +163,7 @@
 <g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M97.70,45.45 L106.09,45.45 M316.45,45.45 L674.82,45.45  '/></g>
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M97.70,45.45 L106.09,45.45 M308.06,45.45 L674.82,45.45  '/></g>
 <g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -228,7 +228,7 @@
 <g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M314.12,292.40 L314.12,81.01 M314.12,27.01 L314.12,18.01  '/></g>
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M314.12,292.40 L314.12,18.01  '/></g>
 <g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -316,15 +316,15 @@
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M106.09,81.01 L106.09,27.01 L316.45,27.01 L316.45,81.01 L106.09,81.01 Z  '/></g>
-	<g id="gnuplot_plot_1" ><title>Inserction</title>
+	<path stroke='black'  d='M106.09,81.01 L106.09,27.01 L308.06,27.01 L308.06,81.01 L106.09,81.01 Z  '/></g>
+	<g id="gnuplot_plot_1" ><title>Insertion</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(257.11,39.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Arial" >Inserction</tspan></text>
+	<g transform="translate(248.72,39.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Insertion</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(148,   0, 211)'  d='M265.50,36.01 L308.06,36.01 M97.70,288.99 L169.84,286.05 L241.98,278.47 L314.12,265.15 L386.26,250.10 L458.40,230.27
+	<path stroke='rgb(148,   0, 211)'  d='M257.11,36.01 L299.67,36.01 M97.70,288.99 L169.84,286.05 L241.98,278.47 L314.12,265.15 L386.26,250.10 L458.40,230.27
 		L530.54,211.52 L602.68,183.16 L674.82,156.23  '/></g>
 	</g>
 	<g id="gnuplot_plot_2" ><title>gnuplot_plot_2</title>
@@ -357,14 +357,14 @@
 
 </g>
 	</g>
-	<g id="gnuplot_plot_3" ><title>Inserction (best)</title>
+	<g id="gnuplot_plot_3" ><title>Insertion (best)</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(257.11,57.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Arial" >Inserction (best)</tspan></text>
+	<g transform="translate(248.72,57.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Insertion (best)</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 86, 180, 233)'  d='M265.50,54.01 L308.06,54.01 M97.70,292.35 L169.84,292.32 L241.98,292.29 L314.12,292.26 L386.26,292.23 L458.40,292.19
+	<path stroke='rgb( 86, 180, 233)'  d='M257.11,54.01 L299.67,54.01 M97.70,292.35 L169.84,292.32 L241.98,292.29 L314.12,292.26 L386.26,292.23 L458.40,292.19
 		L530.54,292.13 L602.68,292.11 L674.82,292.09  '/></g>
 	</g>
 	<g id="gnuplot_plot_4" ><title>gnuplot_plot_4</title>
@@ -397,14 +397,14 @@
 
 </g>
 	</g>
-	<g id="gnuplot_plot_5" ><title>Inserction (worst)</title>
+	<g id="gnuplot_plot_5" ><title>Insertion (worst)</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(257.11,75.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Arial" >Inserction (worst)</tspan></text>
+	<g transform="translate(248.72,75.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Insertion (worst)</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(240, 228,  66)'  d='M265.50,72.01 L308.06,72.01 M97.70,288.74 L169.84,279.29 L241.98,263.31 L314.12,238.72 L386.26,210.80 L458.40,172.95
+	<path stroke='rgb(240, 228,  66)'  d='M257.11,72.01 L299.67,72.01 M97.70,288.74 L169.84,279.29 L241.98,263.31 L314.12,238.72 L386.26,210.80 L458.40,172.95
 		L530.54,131.04 L602.68,87.92 L674.82,37.52  '/></g>
 	</g>
 	<g id="gnuplot_plot_6" ><title>gnuplot_plot_6</title>

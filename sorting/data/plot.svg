@@ -98,7 +98,7 @@
 <g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M97.70,72.89 L106.09,72.89 M249.33,72.89 L674.82,72.89  '/></g>
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M97.70,72.89 L106.09,72.89 M240.94,72.89 L674.82,72.89  '/></g>
 <g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -150,7 +150,7 @@
 <g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M241.98,292.40 L241.98,81.01 M241.98,27.01 L241.98,18.01  '/></g>
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M241.98,292.40 L241.98,18.01  '/></g>
 <g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -251,15 +251,15 @@
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M106.09,81.01 L106.09,27.01 L249.33,27.01 L249.33,81.01 L106.09,81.01 Z  '/></g>
+	<path stroke='black'  d='M106.09,81.01 L106.09,27.01 L240.94,27.01 L240.94,81.01 L106.09,81.01 Z  '/></g>
 	<g id="gnuplot_plot_1" ><title>Bubble</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(189.99,39.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+	<g transform="translate(181.60,39.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >Bubble</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(148,   0, 211)'  d='M198.38,36.01 L240.94,36.01 M97.70,284.69 L169.84,278.97 L241.98,265.38 L314.12,242.74 L386.26,219.23 L458.40,186.15
+	<path stroke='rgb(148,   0, 211)'  d='M189.99,36.01 L232.55,36.01 M97.70,284.69 L169.84,278.97 L241.98,265.38 L314.12,242.74 L386.26,219.23 L458.40,186.15
 		L530.54,148.05 L602.68,110.43 L674.82,62.10  '/></g>
 	</g>
 	<g id="gnuplot_plot_2" ><title>gnuplot_plot_2</title>
@@ -294,12 +294,12 @@
 	</g>
 	<g id="gnuplot_plot_3" ><title>Selection</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(189.99,57.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+	<g transform="translate(181.60,57.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >Selection</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 86, 180, 233)'  d='M198.38,54.01 L240.94,54.01 M97.70,288.26 L169.84,287.49 L241.98,282.23 L314.12,274.85 L386.26,265.56 L458.40,254.76
+	<path stroke='rgb( 86, 180, 233)'  d='M189.99,54.01 L232.55,54.01 M97.70,288.26 L169.84,287.49 L241.98,282.23 L314.12,274.85 L386.26,265.56 L458.40,254.76
 		L530.54,241.83 L602.68,226.92 L674.82,210.01  '/></g>
 	</g>
 	<g id="gnuplot_plot_4" ><title>gnuplot_plot_4</title>
@@ -332,14 +332,14 @@
 
 </g>
 	</g>
-	<g id="gnuplot_plot_5" ><title>Inserction</title>
+	<g id="gnuplot_plot_5" ><title>Insertion</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(189.99,75.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Arial" >Inserction</tspan></text>
+	<g transform="translate(181.60,75.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Insertion</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(240, 228,  66)'  d='M198.38,72.01 L240.94,72.01 M97.70,289.67 L169.84,287.32 L241.98,281.26 L314.12,270.60 L386.26,258.56 L458.40,242.70
+	<path stroke='rgb(240, 228,  66)'  d='M189.99,72.01 L232.55,72.01 M97.70,289.67 L169.84,287.32 L241.98,281.26 L314.12,270.60 L386.26,258.56 L458.40,242.70
 		L530.54,227.70 L602.68,205.00 L674.82,183.46  '/></g>
 	</g>
 	<g id="gnuplot_plot_6" ><title>gnuplot_plot_6</title>

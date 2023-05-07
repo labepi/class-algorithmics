@@ -11,8 +11,8 @@ plot "bubble.txt" u 1:2 w l t "Bubble",\
      "bubble.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
      "selection.txt" u 1:2 w l t "Selection",\
      "selection.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
-     "inserction.txt" u 1:2 w l t "Inserction",\
-     "inserction.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+     "insertion.txt" u 1:2 w l t "Insertion",\
+     "insertion.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
 
 set key left top
 set output "plot-bs.svg"
@@ -41,12 +41,12 @@ plot "selection.txt" u 1:2 w l t "Selection",\
 
 set key left top
 set output "plot-i.svg"
-plot "inserction.txt" u 1:2 w l t "Inserction",\
-     "inserction.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
-     "inserction-best.txt" u 1:2 w l t "Inserction (best)",\
-     "inserction-best.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
-     "inserction-worst.txt" u 1:2 w l t "Inserction (worst)",\
-     "inserction-worst.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+plot "insertion.txt" u 1:2 w l t "Insertion",\
+     "insertion.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "insertion-best.txt" u 1:2 w l t "Insertion (best)",\
+     "insertion-best.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "insertion-worst.txt" u 1:2 w l t "Insertion (worst)",\
+     "insertion-worst.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
 
 set key left top
 set output "plot-bi.svg"
@@ -54,14 +54,14 @@ plot "bubble.txt" u 1:2 w l t "Bubble",\
      "bubble.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
      "bubble-worst.txt" u 1:2 w l t "Bubble (worst)",\
      "bubble-worst.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
-     "inserction.txt" u 1:2 w l t "Inserction",\
-     "inserction.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
-     "inserction-worst.txt" u 1:2 w l t "Inserction (worst)",\
-     "inserction-worst.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+     "insertion.txt" u 1:2 w l t "Insertion",\
+     "insertion.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "insertion-worst.txt" u 1:2 w l t "Insertion (worst)",\
+     "insertion-worst.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
 
 set key left top
 set output "plot-ri.svg"
-plot "rinserction.txt" u 1:2 w l t "Recursive Inserction",\
-     "rinserction.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
-     "inserction.txt" u 1:2 w l t "Inserction",\
-     "inserction.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+plot "rinsertion.txt" u 1:2 w l t "Recursive Insertion",\
+     "rinsertion.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "insertion.txt" u 1:2 w l t "Insertion",\
+     "insertion.txt" u 1:2:3 lt 8 pt 0 notitle w yerr

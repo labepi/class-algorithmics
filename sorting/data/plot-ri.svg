@@ -176,7 +176,7 @@
 <g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M97.70,42.95 L106.09,42.95 M333.23,42.95 L674.82,42.95  '/></g>
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M97.70,42.95 L106.09,42.95 M324.84,42.95 L674.82,42.95  '/></g>
 <g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -329,15 +329,15 @@
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M106.09,63.01 L106.09,27.01 L333.23,27.01 L333.23,63.01 L106.09,63.01 Z  '/></g>
-	<g id="gnuplot_plot_1" ><title>Recursive Inserction</title>
+	<path stroke='black'  d='M106.09,63.01 L106.09,27.01 L324.84,27.01 L324.84,63.01 L106.09,63.01 Z  '/></g>
+	<g id="gnuplot_plot_1" ><title>Recursive Insertion</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(273.89,39.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Arial" >Recursive Inserction</tspan></text>
+	<g transform="translate(265.50,39.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Recursive Insertion</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(148,   0, 211)'  d='M282.28,36.01 L324.84,36.01 M97.70,288.34 L169.84,277.71 L241.98,262.37 L314.12,237.92 L386.26,214.31 L458.40,181.34
+	<path stroke='rgb(148,   0, 211)'  d='M273.89,36.01 L316.45,36.01 M97.70,288.34 L169.84,277.71 L241.98,262.37 L314.12,237.92 L386.26,214.31 L458.40,181.34
 		L530.54,144.35 L602.68,95.54 L674.82,46.65  '/></g>
 	</g>
 	<g id="gnuplot_plot_2" ><title>gnuplot_plot_2</title>
@@ -370,14 +370,14 @@
 
 </g>
 	</g>
-	<g id="gnuplot_plot_3" ><title>Inserction</title>
+	<g id="gnuplot_plot_3" ><title>Insertion</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(273.89,57.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Arial" >Inserction</tspan></text>
+	<g transform="translate(265.50,57.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Insertion</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 86, 180, 233)'  d='M282.28,54.01 L324.84,54.01 M97.70,286.21 L169.84,280.85 L241.98,267.08 L314.12,242.86 L386.26,215.49 L458.40,179.44
+	<path stroke='rgb( 86, 180, 233)'  d='M273.89,54.01 L316.45,54.01 M97.70,286.21 L169.84,280.85 L241.98,267.08 L314.12,242.86 L386.26,215.49 L458.40,179.44
 		L530.54,145.35 L602.68,93.77 L674.82,44.82  '/></g>
 	</g>
 	<g id="gnuplot_plot_4" ><title>gnuplot_plot_4</title>
