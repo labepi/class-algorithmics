@@ -86,8 +86,15 @@ plot "quick.txt" u 1:2 w l t "Quick",\
      "quick-worst.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
 
 set key left top
-set output "plot-qm.svg"
+set output "plot-c.svg"
+plot "counting.txt" u 1:2 w l t "Counting (Distribution)",\
+     "counting.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+
+set key left top
+set output "plot-cqm.svg"
 plot "quick.txt" u 1:2 w l t "Quick",\
      "quick.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
      "merge.txt" u 1:2 w l t "Merge",\
-     "merge.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+     "merge.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "counting.txt" u 1:2 w l t "Counting (Distribution)",\
+     "counting.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
