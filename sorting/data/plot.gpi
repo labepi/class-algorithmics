@@ -77,3 +77,17 @@ plot "merge.txt" u 1:2 w l t "Merge",\
      "merge.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
      "selection.txt" u 1:2 w l t "Selection",\
      "selection.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+
+set key left top
+set output "plot-q.svg"
+plot "quick.txt" u 1:2 w l t "Quick",\
+     "quick.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "quick-worst.txt" u 1:2 w l t "Quick (worst)",\
+     "quick-worst.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
+
+set key left top
+set output "plot-qm.svg"
+plot "quick.txt" u 1:2 w l t "Quick",\
+     "quick.txt" u 1:2:3 lt 8 pt 0 notitle w yerr,\
+     "merge.txt" u 1:2 w l t "Merge",\
+     "merge.txt" u 1:2:3 lt 8 pt 0 notitle w yerr
