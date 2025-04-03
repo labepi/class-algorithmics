@@ -27,8 +27,8 @@ if [ $# -eq 6 ]; then
             $5 $n >> $file
         done
 
-        max=`awk 'BEGIN{s=0}{if ($1>s) s=$1 fi}END{print s}' $file` 
-        min=`awk 'BEGIN{s='$max'}{if ($1<s) s=$1 fi}END{print s}' $file` 
+        max=`awk 'BEGIN{s=0}{if ($1>s) s=$1; fi}END{print s}' $file` 
+        min=`awk 'BEGIN{s='$max'}{if ($1<s) s=$1; fi}END{print s}' $file` 
         mean=`awk 'BEGIN{s=0}{s+=$1;}END{print s/NR;}' $file`
         maer=`awk 'BEGIN{s=0}{s+=sqrt((s-'$mean')^2);}END{print s/NR;}' $file`
  
